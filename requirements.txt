@@ -1,0 +1,10 @@
+bokeh
+cadCAD
+holoviews
+hvplot
+matplotlib
+panel
+param
+pandas
+numpy
+

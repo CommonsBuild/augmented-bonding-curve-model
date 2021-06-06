@@ -4,6 +4,12 @@
 [![hackmd-github-sync-badge](https://hackmd.io/0CmslwnjTCK8S1hATlUnNQ/badge)](https://hackmd.io/ApPMBo0_QSG5AM0Rs_qThg)
 ---
 
+To run locally:
+
+First activate your virtual environment and install the requirements. Then:
+
+`panel serve augmentedbondingcurve/app.py --auto --show`
+
 To get started working with Heroku [signup](https://signup.heroku.com/) for a free account and [download and install the CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up). Once you are set up follow the instructions to log into the CLI.
 
 1. Clone this repository

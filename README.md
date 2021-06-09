@@ -48,7 +48,33 @@ Modify the Procfile which declares which command Heroku should run to serve the 
 
 `web: panel serve --address="0.0.0.0" --port=$PORT model/app.py --allow-websocket-origin=app-name.herokuapp.com`
 
+### To distribute as package
+	
+1. Install setuptools and twine  
+```
+pip install setuptools twine
+```
+
+2. Check if any metadata are missing
+
+```
+python setup.py check
+```
+
+3. Create a source distribution
+
+```
+python setup.py sdist
+```
+
+4. Upload it to PyPI. You will need an registered account at  https://pypi.python.org  
+```
+twine upload dist/*
+```
+
 ### Credits:
 > https://panel.holoviz.org/user_guide/Server_Deployment.html
 
 > https://github.com/holoviz-demos/minimal-heroku-demo/blob/master/README.md
+
+> https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/

@@ -76,3 +76,5 @@ twine upload dist/*
 > https://panel.holoviz.org/user_guide/Server_Deployment.html
 
 > https://github.com/holoviz-demos/minimal-heroku-demo/blob/master/README.md
+
+> https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/
